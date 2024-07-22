@@ -1,20 +1,29 @@
-Pod::Spec.new do |s|
-  s.name             = 'DHECloud'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DHECloud.'
 
-  s.description      = '大华摄像头iOS的SDK'
+Pod::Spec.new do |spec|
 
 
-  s.homepage         = 'https://github.com/Bilinxian/DHECloud'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ghj' => '1' }
-  s.source           = { :git => 'https://github.com/wangzhi17/DHECloud.git', :tag => s.version }
+  spec.name         = "DHECloud"
+  spec.version      = "0.0.1"
+  spec.summary      = "大华摄像头SDK"
 
-  s.ios.deployment_target = '9.0'
+  spec.description  = <<-DESC
+                   在第三方app中集成大华摄像头SDK，在app中实现访问摄像头，直播，对讲，回放等功能。
+                   DESC
+
+  spec.homepage     = "https://github.com/wangzhi17/DHECloud"
+
+
+  spec.license      = "MIT"
+
+  spec.author             = { "wangzhi" => "wangzhi0114@163.com" }
+
+  spec.platform     = :ios, "9.0"
+
+  spec.source       = { :git => "https://github.com/wangzhi17/DHECloud", :tag => "#{spec.version}" }
+
   s.source_files = 'DHECloud/*.{h,m,mm}'
   s.public_header_files = 'DHECloud/*.{h}'
-  s.vendored_frameworks ='Depends/framework/*.framework'
+  s.vendored_frameworks ='Depends/frks/*.framework'
   s.framework = 'LCOpenSDKDynamic'
   s.resources = 'Depends/bundle/*'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'false', 'CLANG_WARN_DOCUMENTATION_COMMENTS' => 'NO',
