@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Versioninfo>
+	<Module makecmd="cd ./Src;chmod +x buildIOS.sh;./buildIOS.sh" name="iOSlibs" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Branches/P_2018.08.10_LCCommonSDK_V5.0_ForNewArch" revision="219877" stable="True">
+		<Externals path="./Src/MediaStreamComponents/RtspStream/project/build.linux">
+			<External name="mkConfigs" path="http://yfsvn.dahuatech.com/svnpl/Renascence/mkConfigs/Trunk" revision="1064369" stable="False"/>
+		</Externals>
+		<Externals path="./Depends/Include">
+			<External name="Component" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Component" revision="392840" stable="True"/>
+			<External name="Infra" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Infra/Infra3" revision="762543" stable="True"/>
+			<External name="Json" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Json" revision="176624" stable="True"/>
+			<External name="Memory" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Memory" revision="282672" stable="True"/>
+			<External name="NetFramework" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/NetFramework" revision="1010386" stable="True"/>
+			<External name="P2P" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/TouProxy" revision="885187" stable="True"/>
+			<External name="StreamApp" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamApp" revision="1037310" stable="True"/>
+			<External name="StreamConvert" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamConvert" revision="1047210" stable="True"/>
+			<External name="StreamPackage" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamPackage" revision="934426" stable="True"/>
+			<External name="StreamParser" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamParser" revision="935427" stable="True"/>
+			<External name="StreamSvr" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamSvr" revision="1039957" stable="True"/>
+			<External name="TinyXml" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/TinyXml" revision="288796" stable="True"/>
+			<External name="Utils" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Utils" revision="355685" stable="True"/>
+			<External name="curl" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCLibcurl/Bin/curl_7x63x0" revision="122110" stable="True"/>
+			<External name="DHHLS" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCHLS/Trunk/Include/LCHLS" revision="138050" stable="True"/>
+			<External name="Stream" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Stream" revision="367866" stable="True"/>
+			<External name="openssl" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCLibcurl/Bin/openssl_1x0x2p" revision="118844" stable="True"/>
+			<External name="SecurityUnit" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/SecurityUnit" revision="956047" stable="True"/>
+			<External name="NetProtocol" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/NetProtocol" revision="403410" stable="True"/>
+		</Externals>
+		<Externals path="./Src/BusinessComponents/LCOpenBusiness/project/DependInclude/LCOpenApiClient">
+			<External name="LCOpenApi_Inside" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Branches/P_2018.08.10_LCOpenSDK_ForNewArchitecture/LCOpenApiClient/C/LCOpenApiClient/Include/LCOpenApi_Inside" revision="109857" stable="True"/>
+			<External name="LCOpenApiDefine.h" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Branches/P_2018.08.10_LCOpenSDK_ForNewArchitecture/LCOpenApiClient/C/LCOpenApiClient/Include/LCOpenApiDefine.h" revision="109857" stable="True"/>
+			<External name="LCOpenApiRequest.h" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Branches/P_2018.08.10_LCOpenSDK_ForNewArchitecture/LCOpenApiClient/C/LCOpenApiClient/Include/LCOpenApiRequest.h" revision="105931" stable="True"/>
+			<External name="LCOpenApiResponse.h" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Branches/P_2018.08.10_LCOpenSDK_ForNewArchitecture/LCOpenApiClient/C/LCOpenApiClient/Include/LCOpenApiResponse.h" revision="105931" stable="True"/>
+			<External name="LCOpenApiClient.h" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Branches/P_2018.08.10_LCOpenSDK_ForNewArchitecture/LCOpenApiClient/C/LCOpenApiClient/Src/client/LCOpenApiClient.h" revision="109857" stable="True"/>
+		</Externals>
+		<Externals path="./Depends/Include/arm64-v8a">
+			<External name="Component" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Component" revision="392840" stable="True"/>
+			<External name="Infra" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Infra/Infra3" revision="387217" stable="True"/>
+			<External name="Json" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Json" revision="176624" stable="True"/>
+			<External name="Memory" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Memory" revision="282672" stable="True"/>
+			<External name="NetFramework" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/NetFramework" revision="390447" stable="True"/>
+			<External name="P2P" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/TouProxy" revision="885187" stable="True"/>
+			<External name="StreamApp" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamApp" revision="787879" stable="True"/>
+			<External name="StreamConvert" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamConvert" revision="699003" stable="True"/>
+			<External name="StreamPackage" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamPackage" revision="830029" stable="True"/>
+			<External name="StreamParser" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamParser" revision="830029" stable="True"/>
+			<External name="StreamSvr" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamSvr" revision="787155" stable="True"/>
+			<External name="TinyXml" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/TinyXml" revision="288796" stable="True"/>
+			<External name="Utils" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Utils" revision="355685" stable="True"/>
+			<External name="curl" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCLibcurl/Bin/curl_7x63x0" revision="122110" stable="True"/>
+			<External name="DHHLS" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCHLS/Trunk/Include/LCHLS" revision="103994" stable="True"/>
+			<External name="Stream" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Stream" revision="367866" stable="True"/>
+			<External name="openssl" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCLibcurl/Bin/openssl_1x0x2p" revision="118844" stable="True"/>
+			<External name="SecurityUnit" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/SecurityUnit" revision="781269" stable="True"/>
+		</Externals>
+		<Externals path="./Src/SIPStackComponent/include">
+			<External name="SipStack" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/SipStack" revision="863219" stable="True"/>
+		</Externals>
+	</Module>
+	<Module name="Depend.xml" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Branches/CustomBranches/C_2019.03.21_LCOpenSDK_DH3.RD001685_V5.0_ForNewAr/Depend/Mac/DependInfo.xml" revision="219879" scm="svn" stable="True"/>
+	<Module makecmd="sh mac.sh ${PARAM}" name="LCOpenSDK" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Branches/CustomBranches/C_2019.03.21_LCOpenSDK_DH3.RD001685_V5.0_ForNewAr" revision="219879" stable="False">
+		<Externals path="./LCOpenSDK_Component/ios_VideoComponent/include">
+			<External name="Third_Include" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Depends/Include" revision="90906" stable="True"/>
+			<External name="CommonSDK_Include" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Src/Include" revision="90410" stable="True"/>
+		</Externals>
+		<Externals path="./Demo/WinPlugIn/LCOpenSDKPlugIn/LCOpenSDKPlugIn/Depend/NPAPI/Include">
+			<External name="lcopensdk_include" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/LCOpenSDK/win32/src/Include" revision="42414" stable="True"/>
+		</Externals>
+		<Externals path="./LCOpenApiClient/C/build.linux">
+			<External name="mkConfigs" path="http://yfsvn.dahuatech.com/svnpl/Renascence/mkConfigs/Trunk" revision="1064369" stable="False"/>
+		</Externals>
+		<Externals path="./Demo/WinPlugIn/LCOpenSDKPlugIn/LCOpenSDKPlugIn/Depend/Lib">
+			<External name="LCOpenApiClient" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/SDKLib/Win/LCOpenApiClient" revision="46717" stable="True"/>
+			<External name="playsdk" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Depends/win32_lib/playsdk" revision="40944" stable="True"/>
+		</Externals>
+		<Externals path="./ZZYSDK(unsupport)/ZZY/ZZY/src/depend/lib">
+			<External name="lccommonsdk_win32_lib" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Src/Lib/win32" revision="107994" stable="True"/>
+			<External name="third_win32_lib" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Depends/win32_lib" revision="108292" stable="True"/>
+		</Externals>
+		<Externals path="./ZZYSDK(unsupport)/ZZY/ZZY/src/depend/include/lccommonsdk_include">
+			<External name="CryptComponent" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Src/Include/CryptComponent" revision="69309" stable="True"/>
+			<External name="Log" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Src/Include/Log" revision="40641" stable="True"/>
+		</Externals>
+		<Externals path="./Demo/WinPlugIn/LCOpenSDKPlugIn/LCOpenSDKPlugIn/Depend/NPAPI/Lib">
+			<External name="LCOpenSDK" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/SDKLib/Win/LCOpenSDK" revision="42443" stable="True"/>
+			<External name="LCOpenApiClient" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/SDKLib/Win/LCOpenApiClient" revision="42413" stable="True"/>
+			<External name="playsdk" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Depends/win32_lib/playsdk" revision="40944" stable="True"/>
+		</Externals>
+		<Externals path="./SDKLib/IOS">
+			<External name="CommonSDK_Lib" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Branches/P_2018.08.10_LCCommonSDK_V5.0_ForNewArch/Src/Lib/ios" revision="204490" stable="False"/>
+			<External name="Third_Lib" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Branches/P_2018.08.10_LCCommonSDK_V5.0_ForNewArch/Depends/ios_lib" revision="219559" stable="False"/>
+		</Externals>
+		<Externals path="./Demo/Win/LCOpenSDKDemo-V1.0/LCOpenSDKDemo-V1.0/Depend/lib/LibCurl">
+			<External name="libcurlmd.lib" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Depends/win32_lib/DHCloud/libcurlmd.lib" revision="40651" stable="True"/>
+			<External name="libcurlmdd.lib" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Depends/win32_lib/DHCloud/libcurlmdd.lib" revision="40651" stable="True"/>
+		</Externals>
+		<Externals path="./Demo/Win/LCOpenSDKDemo-V1.0/LCOpenSDKDemo-V1.0/Depend/include">
+			<External name="lcopensdk_include" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/LCOpenSDK/win32/src/Include" revision="115715" stable="True"/>
+			<External name="curl" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/LCOpenApiClient/C/LCOpenApiClient/Include/curl/win32" revision="52602" stable="True"/>
+		</Externals>
+		<Externals path="./ZZYSDK(unsupport)/ZZY/ZZY/src/depend/include/third_include">
+			<External name="Component" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Component" revision="493806" stable="True"/>
+			<External name="Infra" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Infra/Infra3" revision="657536" stable="True"/>
+			<External name="Memory" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Memory" revision="618626" stable="True"/>
+			<External name="Utils" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Utils" revision="636606" stable="True"/>
+			<External name="NetFramework" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/NetFramework" revision="621151" stable="True"/>
+			<External name="NetAutoAdaptor" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/NetAutoAdaptor" revision="656426" stable="True"/>
+			<External name="StreamSvr" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamSvr" revision="659321" stable="True"/>
+			<External name="StreamApp" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamApp" revision="660879" stable="True"/>
+			<External name="DHHLS" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCHLS/Trunk/Include/LCHLS" revision="103994" stable="True"/>
+			<External name="Json" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Json" revision="176624" stable="True"/>
+			<External name="Stream" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/Stream" revision="647974" stable="True"/>
+			<External name="StreamPackage" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamPackage" revision="622268" stable="True"/>
+			<External name="StreamParser" path="http://yfsvn.dahuatech.com/svnpl/Renascence/Include/Trunk/StreamParser" revision="622209" stable="True"/>
+		</Externals>
+		<Externals path="./LCOpenSDK/ios_forNewArchitecture/include">
+			<External name="Third_Include" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Branches/P_2018.08.10_LCCommonSDK_V5.0_ForNewArch/Depends/Include" revision="219510" stable="False"/>
+			<External name="CommonSDK_Include" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Branches/P_2018.08.10_LCCommonSDK_V5.0_ForNewArch/Src/Include" revision="206811" stable="False"/>
+		</Externals>
+		<Externals path="./Demo/WinPlugIn/LCOpenSDKPlugIn/LCOpenSDKPlugIn/Depend/Include">
+			<External name="lcopensdk_include" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/LCOpenSDK/win32/src/Include" revision="46720" stable="True"/>
+		</Externals>
+		<Externals path="./Demo/Win/LCOpenSDKDemo-V1.0/LCOpenSDKDemo-V1.0/Depend/lib">
+			<External name="LCOpenSDK" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/SDKLib/Win/LCOpenSDK" revision="117027" stable="True"/>
+			<External name="LCOpenApiClient" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/SDKLib/Win/LCOpenApiClient" revision="117023" stable="True"/>
+			<External name="playsdk" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Depends/win32_lib/playsdk" revision="115637" stable="True"/>
+			<External name="netsdk" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCOpenSDK/Trunk/SDKLib/Win/netsdk" revision="91176" stable="True"/>
+		</Externals>
+		<Externals path="./LCOpenSDK_Component/win32_VideoComponent/project/DependInclude">
+			<External name="Log" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Src/Include/Log" revision="40641" stable="True"/>
+			<External name="PlayerComponent" path="http://yfsvn.dahuatech.com/svn/MobileMonitor/Components/LCCommonSDK/Trunk/Src/Include/PlayerComponent/win32" revision="37597" stable="True"/>
+		</Externals>
+	</Module>
+</Versioninfo>
